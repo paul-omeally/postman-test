@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "api-test-dev": "newman run test/NewmanTest.postman_collection.json"
+    "api-test-dev": "newman run test/NewmanTest.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
   },
   "author": "paul omeally",
   "license": "ISC",
