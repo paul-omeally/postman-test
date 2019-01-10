@@ -1,0 +1,16 @@
+{
+  "name": "postman-newman-test",
+  "version": "1.0.0",
+  "description": "runs postman test",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "api-test-dev": "newman run test/NewmanTest.postman_collection.json"
+  },
+  "author": "paul omeally",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^4.3.1"
+  }
+}
